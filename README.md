@@ -9,8 +9,11 @@ Example: the next number in the sequence above is 21 + 34 = 55
 
 ### The Problem Statement
 
-We want to write a function that takes n as an argument and prints
+We want to write a function that takes `n` as an argument and prints
 the nth Fibonacci number in the sequence. Think of n being the step in the sequence.
+
+### External Resources To Use
+During a technical interview, interviewers usually don't allow you to use many resources. For this exercise **you may only use [Ruby's Documentation](https://ruby-doc.org/core-2.6.1/)**
 
 ### Example
 
@@ -30,6 +33,7 @@ fibonacci(7)
 ```
 
 You can place your solution in the `fibonacci.rb` file that's provided in this repo.
+
 
 ### Bonus
 
