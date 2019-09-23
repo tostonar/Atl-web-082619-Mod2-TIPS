@@ -7,19 +7,13 @@ def fibonacci(n)
   if n < 0
     return "You must provide a number greater than 0"
   end
-  f = []
 
-  if n == 1 
-    f = [1] 
-  elsif n == 2
-    f = [1,1]
+  if n == 1 || n ==2 
+    1
   else
-    f = [1,1]
-    f << (f[-1] + f[-2]) 
-    n -= 1
-    fibonacci(n)
+    fibonacci(n-1) + fibonacci(n-2)
   end
-  f[-1]
+  
 end
 
 puts fibonacci(7)
